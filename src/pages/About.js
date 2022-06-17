@@ -12,13 +12,14 @@ export const About = () => {
       <Logo />
       <Navigation />
 
-      <h1>Bonjour Doha</h1>
+      <h1>A propos</h1>
       <br />
-      <p>Voici tout les pays du monde</p>
+      <h2>Voici tout les pays du monde dans la page accueil trier par continent</h2>
 
       <br />
 
-      <p>Bonne appetit</p>
+
+
     </div>
   )
 
