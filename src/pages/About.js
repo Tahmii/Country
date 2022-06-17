@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Logo from '../components/Logo';
+import Navigation from '../components/Navigation';
 
 export const About = () => {
 
@@ -9,14 +10,15 @@ export const About = () => {
   return (
     <div>
       <Logo />
+      <Navigation />
 
-      <h1>A propos</h1>
+      <h1>Bonjour Doha</h1>
       <br />
-      <p>Lorem</p>
+      <p>Voici tout les pays du monde</p>
 
       <br />
 
-      <p>jcni isu si chs cis cjc cjd cscdpsnn os qjd ikzs kdj</p>
+      <p>Bonne appetit</p>
     </div>
   )
 

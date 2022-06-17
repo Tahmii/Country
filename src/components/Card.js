@@ -5,8 +5,8 @@ const Card = ({ country }) => {
     console.log(country)
     return (
         <li className='card'>
-            <div className='infos'>
                 <img src={country.flags.svg} alt={'drapeau' + country.translations.fra.common} />
+            <div className='infos'>
                 <h2>{country.translations.fra.common}</h2>
                 <h3>Capital :{country.capital}</h3>
                 <h4> Population : {country.population.toLocaleString()}</h4>

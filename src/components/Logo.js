@@ -5,27 +5,15 @@ import Navigation from './Navigation';
 
 export const Logo = () => {
 
-//   const Title = styled.h1`
-//   font-size: 1.5em;
-//   text-align: center;
-//   color: palevioletred;
-//   `;
 
-//   // Create a Wrapper component that'll render a <section> tag with some styles
-//   const Wrapper = styled.section`
-//   padding: 1em;
-//   background: papayawhip;
-//   `;
 
   return (
-    <div>
+    <div className='logo'>
 
-    {/* // <Wrapper>
-    //   <Title> */}
-        <img src="img/logo192.png" alt="pic"></img>
-    {/* //   </Title> */}
-      <Navigation />
-    {/* // </Wrapper> */}
+      <img src="img/logo192.png" alt="pic"></img>
+      <h3>React World</h3>
+
+
     </div>
   )
 
