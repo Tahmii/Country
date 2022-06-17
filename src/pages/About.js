@@ -1,23 +1,25 @@
 import React, { Component } from 'react'
-import Logo from '../components/Logo'
-import Navigation from '../components/Navigation'
+import Logo from '../components/Logo';
 
-export class About extends Component {
-  render() {
-    return (
-      <div>
-        <Logo></Logo>
-        <Navigation></Navigation>
-        <h1>A propos</h1>
-        <br />
-        <p>Lorem</p>
+export const About = () => {
 
-        <br />
 
-        <p>jcni isu si chs cis cjc cjd cscdpsnn os qjd ikzs kdj</p>
-      </div>
-    )
-  }
+
+
+  return (
+    <div>
+      <Logo />
+
+      <h1>A propos</h1>
+      <br />
+      <p>Lorem</p>
+
+      <br />
+
+      <p>jcni isu si chs cis cjc cjd cscdpsnn os qjd ikzs kdj</p>
+    </div>
+  )
+
 }
 
 export default About
